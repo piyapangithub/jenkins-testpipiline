@@ -24,9 +24,6 @@ pipeline {
                 echo '******************************'
             }
         }
- 
-        ...
- 
         stage('Deploy') {
             steps{
                 echo 'Deploy'
